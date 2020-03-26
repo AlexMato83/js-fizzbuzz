@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  animation: sfondo 10s linear infinite;
+}
+
+@keyframes sfondo {
+  0% { background-color: red;}
+  10% { background-color: violet;}
+  40% { background-color: blue;}
+  70% { background-color: green;}
+  90% { background-color: pink;}
+}
+
+#asd {
+  animation: testo 8s linear infinite;
+  position: absolute;
+  height: 200px;
+
+}
+@Keyframes testo {
+
+  0% {top:0;}
+  25% {top:35%;}
+  50% {top:calc(100% - 200px);}
+  75% {top:40%;}
+  100% {top:0;}
+
+}
